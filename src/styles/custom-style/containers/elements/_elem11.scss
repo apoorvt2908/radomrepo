@@ -1,0 +1,72 @@
+.elem11 {
+    $selfElem11: &;     
+
+    &__header {
+        background: var(--blue4); 
+        position: relative;
+        @include font-size(24);
+        @include primaryFont(300);
+        color: var(--white);  
+        padding: 36px 15px;
+        @include flexbox();
+        @include align-items(center); 
+        @include justify-content(center);  
+        margin-bottom: 30px;
+        @include mq(tablet-max) { 
+            @include flexbox();
+            @include justify-content(flex-start);
+            @include font-size(40);
+            margin-bottom: 0px;
+        }
+
+        &:before {
+            content: '';
+            width: 100vw;
+            height: 100%;
+            background: var(--blue4);
+            position: absolute;
+            left: -100vw;
+            display: none;
+            @include mq(tablet-max) { 
+                @include flexbox();
+            }
+        }
+    }
+    &__container {
+        margin-bottom: 30px;
+    }
+    &__cards {
+        height: 100%;
+        > .row {
+            @include flexbox();
+            height: auto;
+                @include mq(tablet-max) {  
+                    height: 100%; 
+                }
+            > [class*='col-'] {
+                height: auto;
+                margin-bottom: 30px;
+                @include mq(tablet-max) {  
+                    height: 100%;
+                    margin-bottom: 0px;  
+                }
+           }
+        }
+        &-item {
+            @include flexbox();
+            @include justify-content(center);
+            @include align-items(center);
+            border: 1px solid var(--grey2);
+            height: 100%;
+            padding: 20px 20px; 
+            
+ 
+            @include mq(tablet-max) { 
+                padding: 0px 20px;
+                height: 100%;
+                
+            }
+        }
+    }
+ 
+}

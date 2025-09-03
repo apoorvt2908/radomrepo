@@ -1,0 +1,30 @@
+.elem14 {
+    $selfElem14: &;
+
+    &__list {
+        @include flexbox();
+        @include flex-wrap(wrap);
+        margin-bottom: 20px;
+        @include mq(tablet-max) {
+            margin-bottom: 50px;
+        }
+        &-link {
+            display: block;
+            border: 1px solid var(--grey2);
+            background-color: var(--white);
+            padding: 10px 15px;
+            @include font-size(16);
+            @include primaryFont(400);
+            @include border-radius(50px);
+            color: var(--blue5);
+            margin-right: 5px;
+            margin-bottom: 5px;
+
+            &:hover {
+                color: var(--white);
+                background-color: var(--lightBlue);
+                border-color: var(--lightBlue);
+            }
+        }
+    }
+}

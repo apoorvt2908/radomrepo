@@ -1,0 +1,118 @@
+.elem9 {
+    $selfElem9: &;  
+    padding: 80px 0px;
+    @include mq(tablet) {
+        padding: 100px 0px;
+    }
+    &__header {
+        position: relative;
+        &-top {
+            @include flexbox;
+            @include flex-direction(column, vertical);
+            margin-bottom: 40px;  
+            @include mq(tablet) {
+                margin-bottom: 80px;
+            }
+        }
+        &-title {
+            @include font-size(42);
+            color: var(--orange);
+            line-height: 1.1; 
+            font-weight: var(--fontLight);
+            @include mq(desktop) {
+                @include font-size(45);
+            }
+            @include mq(desktop-wide) {
+                @include font-size(72);
+            }
+        }
+        &-subtitle {
+            @include font-size(42);
+            color: var(--blue2);
+            line-height: 1.1;
+            font-weight: var(--fontLight);
+            @include mq(desktop) {
+                @include font-size(45); 
+            }
+            @include mq(desktop-wide) {
+                @include font-size(72);
+            }
+        }
+        &-desc {
+            @include font-size(28);
+            color: var(--blue5);
+            line-height: 1.5;
+            font-weight: var(--fontLight);
+            @include mq(desktop) {
+                @include font-size(32);
+            }
+            @include mq(desktop-wide) {
+                @include font-size(42);
+            }
+        }
+        &-backdrop {
+            position: absolute;
+            bottom: -120px;
+            right: 0;
+            @include mq(desktop-min) {
+                bottom: -50px; 
+            }
+            .backdrop-img {
+                width: 120px;
+                @include mq(desktop-min) {
+                    width: 100%;
+                } 
+            }
+        }
+    }
+    &__container  {
+        margin-top: 70px;
+        @include mq(tablet) {
+            margin-top: 130px;
+        }
+    }
+    &__list {
+        &-item {
+            .item-head {
+                @include font-size(28);
+                color: var(--orange);
+                line-height: 1.5;
+                font-weight: var(--fontBold);
+                margin-bottom: 15px;   
+                @include mq(desktop) {
+                    @include font-size(35);
+                }
+                @include mq(desktop-wide) {
+                    @include font-size(42);
+                }
+            }
+            .item-value {
+                @include font-size(20);
+                color: var(--blue5); 
+                line-height: 1.8;
+                font-weight: var(--fontRegular);
+                @include mq(desktop) {
+                    @include font-size(23);
+                }
+                @include mq(desktop-wide) {
+                    @include font-size(24);
+                }
+            }
+            + .elem9__list-item {
+                margin-top: 30px;
+            }
+        }
+    }
+    .elem9--padding {
+        padding: 0 0; 
+        @include mq(tablet-wide) {
+            padding: 0 100px 0 120px; 
+        }
+        @include mq(desktop) {
+            padding: 0 150px 0 170px; 
+        }
+        @include mq(desktop-wide) {
+            padding: 0 250px 0 270px;
+        } 
+    }
+}

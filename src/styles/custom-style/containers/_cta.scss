@@ -1,0 +1,84 @@
+.c-cta {
+    $ctaSelf: &;
+    &.d1 {
+    
+        padding: 8% 0;
+        position: relative;
+        @include background-size(cover);
+        background-position: bottom;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        @include mq(tablet) {
+            padding: 4% 0;
+        }
+
+        @include mq(desktop-wide) {
+            @include background-size(cover);
+        }
+        @include mq(desktop-wide-max) {
+            padding: 5% 0;
+            
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            @include size(100%);
+            z-index: 9;
+            background-color: rgba(var(--blue3),0.4);
+        }
+
+        #{$ctaSelf} {
+            &_container {
+                position: relative;
+                z-index: 10;
+            }
+
+            &_content{
+                @include flex-center-column;
+                &_head{
+                    @include font-size(40);
+                    @include primaryFont(300);
+                    color: var(--white);
+                    margin-bottom: 30px;
+                    text-align: center;
+
+                    @include mq(desktop-wide) {
+                        @include font-size(50);
+                    }
+                    @include mq(desktop-wide-max) {
+                        @include font-size(70);
+                    }
+                }
+                &_desc{
+                    color: #fff;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+        &.small {
+            width: 100%;
+            padding: 30px; 
+            #{$ctaSelf} { 
+                &_content{ 
+                    &_head{
+                        @include font-size(22);
+                        @include primaryFont(400);
+                        color: var(--white);
+                        margin-bottom: 30px;
+                        text-align: center;
+    
+                        @include mq(desktop-wide) {
+                            @include font-size(24);
+                        }
+                        @include mq(desktop-wide-max) {
+                            @include font-size(26);
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}

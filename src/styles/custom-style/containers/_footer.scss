@@ -1,0 +1,153 @@
+.c-footer {
+    $footerSelf: &;
+
+    &__main {
+        background-color: var(--blue4);
+        padding: 30px 0;
+
+        &_show_container {
+            @include flex-center;
+        }
+
+        &_container {
+            .navigation_display {
+                display: none;
+                &.active {
+                    display: block;
+                }
+
+                @include mq(tablet) {
+                    @include flexbox;
+                }
+            }
+        }
+
+        &_showMore {
+            @include flex-center-column;
+            @include inline-flex;
+            color: var(--grey2);
+            @include font-size(13);
+            text-align: center;
+            text-transform: uppercase;
+
+            .txt-hide {
+                display: none;
+            }
+
+            &.active {
+                .txt-more {
+                    display: none;
+                }
+                .txt-hide {
+                    display: block;
+                }
+            }
+
+            .txt-more {
+
+            }
+
+            @include mq(tablet) {
+                display: none;
+            }
+        }
+    }
+
+    &__connect {
+        @include flex-center-column;
+
+        @include mq(tablet) {
+            @include flex-center-vert;
+            @include flex-direction(row,horizontal);
+        }
+
+        .connect-text {
+            @include font-size(12);
+            color: var(--grey2);
+            margin-bottom: 10px;
+
+            @include mq(tablet) {
+                margin-right: 20px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    &__link {
+        @include flexbox;
+        @include justify-content(center);
+        margin-bottom: 20px;
+
+        &_item {
+            @include font-size(12);
+            color: var(--grey2);
+
+            + #{$footerSelf}__link_item {
+                margin-left: 12px;
+
+                @include mq(tablet) {
+                    margin-left: 20px;
+                }
+            }
+           
+        }
+        
+
+        @include mq(tablet) {
+            margin-bottom: 0px;
+        }
+    }
+    &__bottom {
+        background-color: var(--blue);
+
+        &_p1 {
+            border-bottom: 1px solid rgba(var(--greyishBlueBase),0.5);
+            padding: 20px 0;
+            margin-bottom: 20px;
+
+            @include mq(tablet) {
+                @include flex-center-vert;
+                @include justify-content(space-between);
+            }
+          
+        }
+        &_p2 {
+            margin-bottom: 20px;
+            @include flexbox;
+            @include flex-direction(column, vertical);
+            @include align-items(center);
+            & .c-header__contact {
+                margin-bottom: 10px;
+                & .c-header__contact_item {
+                    color: var(--grey2);
+                    &:hover {
+                        color:var(--white);
+                    }
+                }
+                & .u-icon {
+                    height: 16px;
+                    width: auto;
+                }
+                @include mq(tablet) {
+                    margin-bottom: 0px;
+                }
+            }
+            @include mq(tablet) {
+                @include flex-direction(row,horizontal);
+                @include justify-content(space-between);
+            }
+        }
+
+        
+
+        .copyright {
+            @include font-size(12);
+            color: var(--grey2);
+            text-align: center;
+
+            @include mq(desktop) {
+                text-align: left;
+            }
+        }
+    }
+}

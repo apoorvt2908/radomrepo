@@ -1,0 +1,54 @@
+.cta-form {
+    $self: &;
+    .cop-form {
+        &--container {
+            margin-bottom: 15px;
+
+            &-field {
+                border: none;
+                padding: 4px 16px;
+                height: 56px;
+                outline: none;
+                background-color: #fff !important;
+                width: 100%;
+                @include border-radius(6px);
+
+                @include placeholder {
+                    color: #000;
+                    font-size: 14px;
+                    opacity: 1;
+                }
+             }           
+            }
+        }
+        &.col4 {
+            @include flexbox;
+            @include flex-wrap(wrap);
+            margin: 0 -10px;
+            .form-grider {
+                @include calc(max-width, '100% / 1 - 20px');
+                @include flex(1 0 calc(100% / 1 - 20px));
+                margin: 0 10px 15px;
+
+                &.col-fullwidth {
+                    @include calc(max-width, '100% - 20px');
+                    @include flex(1 0 calc(100% - 20px));
+                }
+            }
+            @include mq(tablet){
+                .form-grider {
+                    @include calc(max-width, '100% / 4 - 20px');
+                    @include flex(1 0 calc(100% / 4 - 20px));
+                    margin: 0 10px 15px;
+    
+                    &.col-fullwidth {
+                        @include calc(max-width, '100% - 20px');
+                        @include flex(1 0 calc(100% - 20px));
+                    }
+                }
+
+            }
+        }
+    }
+   
+    

@@ -1,0 +1,1062 @@
+[
+  {
+    "slug": "header-menu",
+    "code": "SUC200",
+    "data": [
+      {
+        "id": "nav_expertise",
+        "name": "Expertise",
+        "link": "#!",
+        "type": "page",
+        "children": [
+          {
+            "id": "234",
+            "name": "Cloud Transformation",
+            "link": "/cloud",
+            "type": "page",
+            "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+            "target": "",
+            "description": "",
+            "icon": "/cloud.svg",
+            "children": [
+              {
+                "id": 36703,
+                "name": "Cloud Consulting Services",
+                "link": "/cloud-consulting",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Data Insights",
+                "link": "/cloud-data-insight",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Cloud Managed Services",
+                "link": "/cloud-managed",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Cloud Migration Solutions",
+                "link": "/cloud-migration",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Modernization",
+                "link": "/cloud-modernization",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Cloud Monitoring Solutions",
+                "link": "/cloud-modernization-solutions",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Security In The Cloud",
+                "link": "/cloud-web",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Amazon Web Services (AWS)",
+                "link": "/aws",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "AWS Storage Solutions",
+                "link": "/aws/aws-storage-solutions",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "234",
+            "name": "Digital Engineering",
+            "link": "/digital-engineering",
+            "type": "page",
+            "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+            "target": "",
+            "description": "",
+            "icon": "/digital-engineering.svg",
+            "children": [
+              {
+                "id": 36703,
+                "name": "Web Development",
+                "link": "/web_design",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Design Excellency",
+                "link": "/ui",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "App Development",
+                "link": "/app-development",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "E-commerce",
+                "link": "/e-commerce",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Database Management",
+                "link": "/database-management",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "234",
+            "name": "Solutions On-demand",
+            "link": "/solutions",
+            "type": "page",
+            "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+            "target": "",
+            "description": "",
+            "icon": "/solutions.svg",
+            "children": [
+              {
+                "id": 36703,
+                "name": "MultiNetwork CMS",
+                "link": "/cms",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "OTT",
+                "link": "/ott-video-solutions",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "LMS",
+                "link": "/lms",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Open Schooling",
+                "link": "/open-schooling",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Education ERP",
+                "link": "/education-erp",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "ORMS",
+                "link": "/orms",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "234",
+            "name": "Contract IT Staffing",
+            "link": "/contract-it-staffing",
+            "type": "page",
+            "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+            "target": "",
+            "description": "",
+            "icon": "/contract.svg",
+            "children": [
+              {
+                "id": 36703,
+                "name": "DevOps & Cloud Engineer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "MERN Stack Engineer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Frontend Developer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Backend Developer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Database Engineer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "AWS Certified Resources",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nav_insights",
+        "name": "Insight",
+        "link": "#!",
+        "type": "page",
+        "children": {
+          "title": "Insights",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "menuItems": [
+            {
+              "icon": "/partner.svg",
+              "text": "Success Stories (Case Studies)",
+              "href": "/client-stories"
+            },
+            {
+              "icon": "/about-us.svg",
+              "text": "Blog",
+              "href": "/client-stories"
+            }
+          ]
+        }
+      },
+      {
+        "id": "nav_industries",
+        "name": "Industries",
+        "link": "#",
+        "children": {
+          "title": "Industry Segments We Serve",
+          "description": "Empowering our customers to bring innovation to life, includes Design-led engineering: Designing, prototyping, and delivering quality products and services faster than traditional approaches.",
+          "menuItems": [
+            {
+              "icon": "/software-vendor.svg",
+              "text": "Independent Software Vendors (ISVs)",
+              "href": "/isv"
+            },
+            {
+              "icon": "/manufacturing.svg",
+              "text": "Manufacturing",
+              "href": "/manufacturing"
+            },
+            {
+              "icon": "/public-sector.svg",
+              "text": "Public Sector",
+              "href": "/public-sector"
+            },
+            {
+              "icon": "/education.svg",
+              "text": "Education",
+              "href": "/education"
+            },
+            {
+              "icon": "/ecommerce.svg",
+              "text": "E-commerce",
+              "href": "/ecommerce-industry"
+            },
+            {
+              "icon": "/automotive.svg",
+              "text": "Automotive",
+              "href": "/automotive"
+            },
+            {
+              "icon": "/automotive.svg",
+              "text": "High-tech",
+              "href": "/high-tech"
+            },
+            {
+              "icon": "/media.svg",
+              "text": "Media & Entertainment",
+              "href": "/media-entertainment"
+            },
+            {
+              "icon": "/real-estate.svg",
+              "text": "Real Estate",
+              "href": "/real-estate",
+              "hidden": true
+            }
+          ]
+        }
+      },
+      {
+        "id": "nav_company",
+        "name": "Company",
+        "link": "#!",
+        "type": "page",
+        "children": {
+          "title": "Company",
+          "description": "InSphere is a leading digital transformation company, we have leveraged advanced digital technology solutions with industry transformation to large enterprises and public sectors for more than a decade.",
+          "menuItems": [
+            {
+              "icon": "/about-us.svg",
+              "text": "About Us",
+              "href": "/about_us"
+            },
+            {
+              "icon": "/leader.svg",
+              "text": "Leadership",
+              "href": "/leadership"
+            },
+            {
+              "icon": "/value.svg",
+              "text": "Core Values",
+              "href": "/core-value"
+            },
+            {
+              "icon": "/partner.svg",
+              "text": "Our Partners",
+              "href": "/partner"
+            },
+            {
+              "icon": "/career.svg",
+              "text": "Careers",
+              "href": "/careers"
+            },
+            {
+              "icon": "/certificate.svg",
+              "text": "Certifications & Achievements",
+              "href": "/certifications"
+            }
+          ]
+        }
+      },
+      {
+        "id": "nav_contact",
+        "name": "Connect with Us",
+        "link": "#!",
+        "children": {
+          "menuItems": [
+            {
+              "text": "Connect with Us",
+              "href": "/contact_us/"
+            },
+            {
+              "text": "Request for services",
+              "href": "/request-for-services/"
+            },
+            {
+              "text": "Join our team",
+              "href": "/careers/"
+            },
+            {
+              "text": "Feedback / queries",
+              "href": "/feedback/"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slug": "footer-menu",
+    "code": "SUC200",
+    "data": [
+      {
+        "id": "234",
+        "name": "Our Expertise",
+        "link": "#!",
+        "type": "page",
+        "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+        "target": "",
+        "description": "",
+        "children": [
+          {
+            "id": "234",
+            "name": "Cloud Transformation",
+            "link": "/cloud",
+            "type": "page",
+            "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+            "target": "",
+            "description": "",
+            "icon": "/cloud.svg",
+            "children": [
+              {
+                "id": 36703,
+                "name": "Cloud Consulting Services",
+                "link": "/cloud-consulting",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Data Insights",
+                "link": "/cloud-data-insight",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Cloud Managed Services",
+                "link": "/cloud-managed",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Cloud Migration Solutions",
+                "link": "/cloud-migration",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Modernization",
+                "link": "/cloud-modernization",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Cloud Monitoring Solutions",
+                "link": "/cloud-modernization-solutions",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Security In The Cloud",
+                "link": "/cloud-web",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Amazon Web Services (AWS)",
+                "link": "/aws",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "AWS Storage Solutions",
+                "link": "/aws/aws-storage-solutions",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "234",
+            "name": "Digital Engineering",
+            "link": "/digital-engineering",
+            "type": "page",
+            "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+            "target": "",
+            "description": "",
+            "icon": "/digital-engineering.svg",
+            "children": [
+              {
+                "id": 36703,
+                "name": "Web Development",
+                "link": "/web_design",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Design Excellency",
+                "link": "/ui",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "App Development",
+                "link": "/app-development",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "E-commerce",
+                "link": "/e-commerce",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Database Management",
+                "link": "/database-management",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "234",
+            "name": "Solutions On-demand",
+            "link": "/solutions",
+            "type": "page",
+            "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+            "target": "",
+            "description": "",
+            "icon": "/solutions.svg",
+            "children": [
+              {
+                "id": 36703,
+                "name": "MultiNetwork CMS",
+                "link": "/cms",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "OTT",
+                "link": "/ott-video-solutions",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "LMS",
+                "link": "/lms",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Open Schooling",
+                "link": "/open-schooling",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Education ERP",
+                "link": "/education-erp",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "ORMS",
+                "link": "/orms",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "234",
+            "name": "Contract IT Staffing",
+            "link": "/contract-it-staffing",
+            "type": "page",
+            "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+            "target": "",
+            "description": "",
+            "icon": "/contract.svg",
+            "children": [
+              {
+                "id": 36703,
+                "name": "DevOps & Cloud Engineer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "MERN Stack Engineer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Frontend Developer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Backend Developer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "Database Engineer",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              },
+              {
+                "id": 36703,
+                "name": "AWS Certified Resources",
+                "link": "/contract-it-staffing",
+                "isExternal": 0,
+                "type": "page",
+                "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+                "target": "",
+                "description": "",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "234",
+        "name": "Company",
+        "link": "#!",
+        "type": "page",
+        "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+        "target": "",
+        "description": "",
+        "children": [
+          {
+            "id": 36703,
+            "name": "About Us",
+            "link": "/about_us",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          },
+          {
+            "id": 36703,
+            "name": "Leadership",
+            "link": "/leadership",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          },
+          {
+            "id": 36703,
+            "name": "Core Values",
+            "link": "/core-value",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          },
+          {
+            "id": 36703,
+            "name": "Our Partners",
+            "link": "/partner",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          },
+          {
+            "id": 36703,
+            "name": "Careers",
+            "link": "/careers",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "234",
+        "name": "Insights",
+        "link": "#!",
+        "type": "page",
+        "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+        "target": "",
+        "description": "",
+        "children": [
+          {
+            "id": 36703,
+            "name": "Success Stories",
+            "link": "/success-stories",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          },
+          {
+            "id": 36703,
+            "name": "Thought Leadership",
+            "link": "javascript:;",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          },
+          {
+            "id": 36703,
+            "name": "Our Blogs",
+            "link": "/blog",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "234",
+        "name": "Connect with Us",
+        "link": "#!",
+        "type": "page",
+        "typeGuid": "0ee73add-6a2b-485c-a479-0ae7f328527e",
+        "target": "",
+        "description": "",
+        "children": [
+          {
+            "id": 36703,
+            "name": "Connect with Us",
+            "link": "/contact_us",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          },
+          {
+            "id": 36703,
+            "name": "Request for Services",
+            "link": "/request-for-services",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          },
+          {
+            "id": 36703,
+            "name": "Join Our Team",
+            "link": "/careers",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          },
+          {
+            "id": 36703,
+            "name": "Feedback Form",
+            "link": "/feedback",
+            "isExternal": 0,
+            "type": "page",
+            "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+            "target": "",
+            "description": "",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "footer-bottom-menu",
+    "code": "SUC200",
+    "data": [
+      {
+        "id": 36703,
+        "name": "Terms & Conditions",
+        "link": "/term-condition",
+        "isExternal": 0,
+        "type": "page",
+        "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+        "target": "",
+        "description": "",
+        "children": []
+      },
+      {
+        "id": 36703,
+        "name": "Privacy Policy",
+        "link": "/privacy-policy",
+        "isExternal": 0,
+        "type": "page",
+        "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+        "target": "",
+        "description": "",
+        "children": []
+      },
+      {
+        "id": 36703,
+        "name": "Cookie Policy",
+        "link": "/cookie",
+        "isExternal": 0,
+        "type": "page",
+        "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+        "target": "",
+        "description": "",
+        "children": []
+      },
+      {
+        "id": 36703,
+        "name": "Sitemap",
+        "link": "javascript:;",
+        "isExternal": 0,
+        "type": "page",
+        "typeGuid": "2d8befbf-380a-4db6-9ad5-edd3bb873e0e",
+        "target": "",
+        "description": "",
+        "children": []
+      }
+    ]
+  }
+]

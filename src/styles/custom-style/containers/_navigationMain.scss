@@ -1,0 +1,223 @@
+.c-navigation {
+    $navigationMain:&;
+    &__main {
+        width: 100%;
+        display: none;
+        position: fixed;
+        background-color: var(--blue2);
+        @include opacity(0);
+        visibility: hidden;
+        z-index: 99;
+        @include transition(all 0.5s ease);
+
+        @include mq(tablet-wide) {
+            display: block;
+        }
+
+        &_close {
+            height: 26px;
+            width: 22px;
+            @extend .u-cursor-pointer;
+            position: absolute;
+            right: 40px;
+            top: 35px;
+            @include transition(.5s ease-in-out);
+            display: block;
+
+            i,
+            i:after,
+            i:before {
+                content: '';
+                display: block;
+                position: absolute;
+                height: 3px;
+                width: 22px;
+                right: 0;
+                @include border-radius(2px);
+                @include transition(.25s ease-in-out);
+                background-color: var(--white);
+                bottom: 0;
+            }
+
+            i:after {
+                @include rotate(45);
+                top: -14px;
+            }
+            i:before {
+                @include rotate(-45);
+                top: -14px;
+            }
+        }
+
+        &.active {
+            @include opacity(1);
+            visibility: visible;
+        }
+
+        .container,.row,.col-12 {
+            height: 100%;
+            position: relative;
+        }
+
+        &__item {
+            @include opacity(0);
+            visibility: hidden;
+            position: absolute;
+            top: 65px;
+            @include calc(height,'100% - 80px');
+            overflow-x: hidden;
+            overflow-y: auto;
+            width: 100%;
+
+            &.active {
+                @include opacity(1);
+                visibility: visible;
+            }
+
+            #{$navigationMain} {
+                &__navBox {
+                    &.d2 {
+                        ul {
+                            @include flexbox;
+                            @include flex-wrap(wrap);
+                            width: 100%;
+                            li {
+                                @include calc(width,'100% / 4 - 20px');
+                                @include mq(desktop-wide) {
+                                    @include calc(width,'100% / 4 - 50px');
+                                }
+                                + li {
+                                    margin-left: 20px;
+
+                                    @include mq(desktop-wide) {
+                                        margin-left: 50px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.d1 {
+                        ul {
+                            @include flexbox;
+                            @include flex-wrap(wrap);
+                            width: 100%;
+                            li {
+                                @include calc(width,'100% / 2 - 40px');
+                                border-bottom: 2px solid var(--grey3);
+                                margin: 0 20px 15px;
+                                padding-bottom: 20px;
+                                @include flex-center-vert;
+
+                                .navBox_links {
+                                    width: 100%;
+                                    a {
+                                        @include flex-center-vert;
+                                        color: var(--white);
+                                        @include font-size(20);
+                                        line-height: 1.33;
+                                        width: 100%;
+
+                                        @include mq(desktop-wide) {
+                                            @include font-size(24);
+                                        }
+
+                                        &:hover {
+                                            color: var(--orange);
+                                        }
+                                    }
+                                    &-icon {
+                                        @include size(75px);
+                                        margin-right: 25px;
+                                        flex: 0 0 75px;
+                                        img {
+                                            object-fit: cover;
+                                            @include size(100%);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .navBox {
+                        &_icon {
+                            margin-bottom: 20px
+                        }
+                        &_title {
+                            @include font-size(20);
+
+                            @include mq(desktop-wide) {
+                                @include font-size(25);
+                            }
+                            color: var(--white);
+                            margin-bottom: 10px;
+                        }
+                        &_links {
+                            @include flex-column();
+                            a {
+                                color: var(--grey5);
+                                @include font-size(16);
+                                @include primaryFont(300);
+                                line-height: 2;
+
+                                @include mq(desktop-wide) {
+                                    @include font-size(18);
+                                }
+
+                                &:hover {
+                                    color: var(--orange);
+                                }
+                            }
+                        }
+
+                        &_content {
+                            &-heading {
+                                color: var(--grey5);
+                                @include font-size(16);
+                                @include primaryFont(700);
+                                line-height: 1.5;
+                                margin-bottom: 20px;
+
+                                @include mq(desktop-wide) {
+                                    @include font-size(20);
+                                }
+                            }
+                            &-desc {
+                                color: var(--grey5);
+                                @include font-size(16);
+                                @include primaryFont(300);
+                                line-height: 1.8;
+                                margin-bottom: 20px;
+
+                                @include mq(desktop-wide) {
+                                    @include font-size(20);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &__contentBox {
+                    h3,p {
+                        @include primaryFont(300);
+                        @include font-size(30);
+                        color: var(--white);
+                        line-height: 1.25;
+                        margin-bottom: 20px;
+
+                        @include mq(desktop-wide) {
+                            @include font-size(48);
+                        }
+                    }
+                    p {
+                        @include font-size(18);
+                        line-height: 1.4;
+
+                        @include mq(desktop-wide) {
+                            @include font-size(26);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.elem2 {
+    $selfElem1: &;
+    padding-bottom: 50px;
+    &__container {
+        @include flexbox;
+        @include transition(all 0.3s ease);
+        margin-bottom: 50px;
+
+        @include mq(desktop-min) {
+            @include flex-center-column;
+        }
+
+        &_icon {
+            max-width: 100px;
+            height: 100px;
+
+            svg {
+                max-width: 100%;
+                height: auto;
+                @include transition(all 0.5s ease);
+            }
+
+            @include mq(desktop-wide-max) {
+                max-width: 130px;
+                height: 130px;
+            }
+        }
+
+        &_content {
+            margin-left: 20px;
+
+            @include mq(desktop-min) {
+                margin-left: 0px;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            &_title {
+                @include font-size(24);
+                @include primaryFont(700);
+                margin-bottom: 0px;
+                color: var(--grey3);
+
+                @include mq(desktop-wide-max) {
+                    @include font-size(30);
+                }
+            }
+            &_desc {
+                @include font-size(20);
+                @include primaryFont(300);
+                margin-bottom: 0px;
+                color: var(--grey3);
+
+                @include mq(desktop-wide-max) {
+                    @include font-size(26);
+                }
+            }
+        }
+
+        &:hover {
+            @include transition(all 0.3s ease);
+            @include translate(0, -30px);
+            #{$selfElem1} {
+                &__container {
+                    &_icon {
+                        svg,
+                        svg * {
+                            stroke: var(--orange);
+                            @include transition(all 0.5s ease);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include mq(tablet-max) {
+        padding-bottom: 100px;
+    }
+}

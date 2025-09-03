@@ -1,0 +1,118 @@
+.c-navigation {
+    $navigationSelf:&;
+
+    &__responsive {
+        top: 120px;
+        position: absolute;
+        width: 100%;
+        background-color: var(--blue2);
+        padding: 50px 25px;
+        @include opacity(0);
+        visibility: hidden;
+        @include transition(all 0.5s ease);
+        @include calc(max-height,'100vh - 100px');
+        overflow-x: auto;
+        z-index: 20;
+
+        &.active {
+            top: 80px;
+            @include opacity(1);
+            visibility: visible;
+        }
+
+        .menubar {
+            &__resp {
+                border-top: 1px solid var(--greyishBlue);
+            }
+
+            &__item {
+                border-bottom: 1px solid var(--greyishBlue);
+                a {
+                    @include flex-center-vert;
+                    color: var(--white);
+                    text-decoration: none;
+                    @include justify-content(space-between);
+                    width: 100%;
+                    padding: 15px 0;
+                }
+
+                .submenu {
+                    height: 0;
+                    @include opacity(0);
+                    visibility: hidden;
+                    overflow:hidden;
+
+                    &__item {
+                        @include flexbox;
+                        @include justify-content(flex-start);
+                        @include primaryFont(300);
+                        @include font-size(14);
+                        padding: 8px 0;
+
+                        &_icon {
+                            @include size(25px);
+                            margin-right: 18px;
+                            img {
+                                @include size(100%);
+                                object-fit: cover;
+                            }
+                        }
+                    }
+
+                    &.box_layout {
+                        @include flexbox;
+                        @include flex-wrap(wrap);
+                        @include justify-content(space-between);
+
+                        li {
+                            @include calc(width,'100% / 2 - 3px');
+                            margin-bottom: 8px;
+                        }
+
+                        .submenu {
+                            &__item {
+                                @include flexbox;
+                                @include align-items(center);
+                                @include justify-content(flex-start);
+                                @include flex-direction(column,vertical);
+                                border: 1px solid rgba(var(--greyishBlueBase),0.5);
+                                @include border-radius(8px);
+                                padding: 12px 10px;
+                                @include font-size(14);
+                                color: var(--grey2);
+                                height: 100%;
+
+                                &_icon {
+                                    max-width: 90px;
+                                    margin-bottom: 10px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+                .dropdown_arrow {
+                    @include transition(all 0.5s ease);
+                }
+
+                &.active {
+                    .dropdown_arrow {
+                        @include rotate(180);
+                    }
+
+                    .submenu {
+                        height: 100%;
+                        @include opacity(1);
+                        visibility: visible;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        @include mq(tablet-max) {
+            display: none;
+        }
+    }
+
+}

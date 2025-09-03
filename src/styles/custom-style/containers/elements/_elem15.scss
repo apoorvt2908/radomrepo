@@ -1,0 +1,139 @@
+.elem15 {
+    $selfElem15: &; 
+    width: 100%;
+    &__imgwrap {
+        width:100%;
+        &-item {
+            width: 100%;
+            @include flexbox;
+            @include align-items(center);
+            @include justify-content(center);
+            background: var(--white);
+            @include border-radius(12px);
+            opacity: 0;
+            position: relative;
+            @include transition (opacity 0.6s ease-in, top 0.8s ease);
+            margin-bottom: 15px;
+            padding-top:12px;
+            padding-bottom: 12px;
+            @include mq(tablet-max) {
+                height: 110px;
+            }
+            & .u-img{
+                height:60px;
+                width: auto;
+                @include mq(tablet-max) {
+                    height: 90px;
+                    width: auto;
+                }
+            } 
+            &:nth-child(1) {
+                -webkit-transition-delay: 0.3s;
+                -o-transition-delay: 0.3s;
+                transition-delay: 0.3s;
+              
+            }
+            &:nth-child(2) {
+                -webkit-transition-delay: 0.5s;
+                -o-transition-delay: 0.5s;
+                transition-delay: 0.5s;
+                
+            }
+            &:nth-child(3) {
+                -webkit-transition-delay: 0.7s;
+                -o-transition-delay: 0.7s;
+                transition-delay: 0.7s;
+                
+            }
+        }
+    } 
+    &__contentwrap {
+        width: 100%;
+        
+        &-head {
+            @include font-size(30);
+            @include primaryFont(700);   
+            color: var(--white);
+            margin-bottom: 20px; 
+            line-height:35px;
+            opacity: 0;
+            @include transition (opacity 0.6s ease-in, top 0.8s ease);
+            @include mq(tablet-max) {
+                @include font-size(40);
+                line-height:44px;
+            }
+            @include mq(tablet-wide) {
+                @include font-size(60);
+                line-height:64px;
+            }
+        }
+        &-disc {
+            @include font-size(16);
+            @include primaryFont(300);   
+            color: var(--white);
+            line-height:24px;
+            opacity: 0;
+            -webkit-transition-delay: 0.5s;
+            -o-transition-delay: 0.5s;
+            transition-delay: 0.5s;
+            margin-bottom: 0px;
+            @include mq(tablet-max) {
+                @include font-size(20);
+                line-height:26px;
+               
+            }
+            @include mq(tablet-wide) {
+                @include font-size(22);
+                line-height:30px;
+                
+            }
+            + .elem15__contentwrap-disc{
+                margin-top: 15px;
+            }
+
+        }
+        
+        // @include mq(tablet-max) {
+        //     width: 100%;
+        //     padding-right:12%;
+        // }
+        // @include mq(desktop-min) {
+        //     padding-right:25%; 
+            
+        // }
+    }
+     &--v2 {
+        background-position: center center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        padding-top:50px;
+        padding-bottom: 50px;
+        margin-top:50px;
+        #{$selfElem15} {
+            &__imgwrap {
+                &-item {
+                    opacity: 1;
+                }
+            }
+            &__contentwrap {
+                &-head {
+                    opacity: 1;
+                }
+                &-disc {
+                    opacity: 1;
+                }
+            }
+        }
+     }
+}
+
+#block-section-3b .panel-2 .animate_title.isactive .elem15__imgwrap-item:nth-child(1), 
+#block-section-3b .panel-2 .animate_title.isactive .elem15__imgwrap-item:nth-child(2), 
+#block-section-3b .panel-2 .animate_title.isactive .elem15__imgwrap-item:nth-child(3) {
+    opacity: 1;
+}
+
+#block-section-3b .panel-2 .animate_title.isactive .elem15__contentwrap-head, 
+#block-section-3b .panel-2 .animate_title.isactive .elem15__contentwrap-disc {
+    opacity: 1;
+}

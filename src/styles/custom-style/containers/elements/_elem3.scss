@@ -1,0 +1,53 @@
+.elem3 {
+    $selfElem1: &;
+    margin-bottom: 90px;
+
+    &__card {
+        margin-bottom: 50px;
+
+        @include mq(tablet) {
+            margin-bottom: 0px;
+        }
+
+        &_image {
+            position: relative;
+            margin-bottom: 20px;
+            max-height: 250px;
+            overflow: hidden;
+
+            &::before {
+                content: '';
+                @include size(100%);
+                position: absolute;
+                left: 0;
+                top: 0;
+                background: url('/images/image_overlay.png');
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &_content {
+            &_head {
+                @include font-size(20);
+                @include primaryFont(700);
+                color: var(--blue5);
+                line-height: 1.6;
+                margin-bottom: 6px;
+            }
+
+            &_desc {
+                @include font-size(22);
+                color: var(--blue5);
+                line-height: 1.3;
+                @include primaryFont(400);
+
+                @include mq(desktop-wide-max) {
+                    @include font-size(26);
+                }
+            }
+        }
+    }
+}

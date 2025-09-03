@@ -1,0 +1,30 @@
+.generic {
+    &__social {
+        $socialSelf: &;
+        &.d1 {
+            @include flex-center-vert;
+            
+            #{$socialSelf} {
+                &_item {
+                    @include flexbox;
+                    .rounded_icon {
+                        @include border-radius(50%);
+                        background-color: var(--grey3);
+                        @include size(25px);
+                        @include flex-center;
+                    }
+                    a {
+                        + a {
+                            margin-left: 12px;
+                        }
+                    }
+                    + #{$socialSelf}_item {
+                        border-left: 1px solid var(--grey2);
+                        margin-left: 12px;
+                        padding-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

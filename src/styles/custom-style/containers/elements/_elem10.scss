@@ -1,0 +1,84 @@
+.elem10 {
+    $selfElem10: &;  
+    padding: 80px 0px;
+    @include mq(desktop) {
+        padding: 130px 0px; 
+    }
+
+    &.darkMode {
+        background: var(--blue4);
+        #{$selfElem10} {
+            
+        }
+        .section_header {
+            margin-top: 0px;
+        }
+        .section_header_title, .section_header_desc, .elem10__card-item .desc {
+            color: var(--white);   
+        }
+    }
+    &__container {
+         
+    } 
+    &__card {
+        > .row {
+            @include flexbox();
+            > [class*='col-'] {
+                @include flexbox(); 
+           }
+        }
+        &-item {
+            border: 1px solid var(--grey2);
+            @include border-radius(12px);
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+            .title {
+                @include font-size(24); 
+                font-weight: var(--fontBold); 
+                color: var(--orange);
+            }
+            .desc {
+                @include font-size(16); 
+                font-weight: var(--fontLight); 
+                color: var(--blue5);
+            }
+        }
+    } 
+    &__listview {
+        margin-top: 40px;
+        @include mq(desktop) {
+            margin-top: 80px;  
+        }
+
+        &-tile {
+            @include flexbox();
+            @include flex-direction(column,vertical);
+            @include justify-content(center);
+            @include align-items(center);  
+            border-top: 1px solid rgba(80, 87, 114, 0.5);
+            border-bottom: 1px solid rgba(80, 87, 114, 0.5);
+            padding: 20px;
+            .main {
+                @include font-size(45);  
+                @include primaryFont(700);
+                color: var(--white);  
+                line-height: 1;
+
+                @include mq(desktop) {
+                    @include font-size(72); 
+                }
+            }
+            .sub {
+                @include font-size(24); 
+                @include primaryFont(300);
+                color: var(--white); 
+                text-align: center; 
+
+                @include mq(desktop) {
+                    @include font-size(30); 
+                }
+            }
+        }
+    }
+}

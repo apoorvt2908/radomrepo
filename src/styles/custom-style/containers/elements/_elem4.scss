@@ -1,0 +1,30 @@
+.elem4 {
+    $selfElem1: &;
+    margin-top: 90px;
+    margin-bottom: 70px;
+
+    &__logo {
+        border: 1px solid var(--grey2);
+        padding: 30px 20px;
+	    height: 140px;
+        @include flex-center;
+        margin-bottom: 20px;
+        
+        img {
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__container {
+        &--logo-rounded {
+            #{$selfElem1} {
+                &__logo {
+                    border-width: 2px;
+                    @include border-radius(10px);
+                    height: 130px;
+                }
+            }
+        }
+    }
+
+}

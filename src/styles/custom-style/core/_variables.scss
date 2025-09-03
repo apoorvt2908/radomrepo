@@ -1,0 +1,28 @@
+:root {
+  --baseBlack: 0, 0, 0;
+  --baseWhite: 255, 255, 255;
+  --black: rgb(var(--baseBlack));
+  --white: rgb(var(--baseWhite));
+  --blue: #05111F;
+  --blue2: #363B50;
+  --blue3: 13, 23, 74;
+  --blue4: #091727;
+  --blue5: #505772;
+  --blue6: #0b1d33;
+  --lightBlue: #4C65E7;
+  --greyishBlueBase: 80,87,114;
+  --greyishBlue: rgb(var(--greyishBlueBase));
+  --grey: #EFEFEF;
+  --grey2: #A6A8B4;
+  --grey3: rgba(var(--greyishBlueBase),1);
+  --grey4: #181F40;
+  --grey5: #D9D9D9;
+  --grey6: 166, 168, 180; // same color as grey2
+  --orange: #F58634;
+  --error: #D8000C;
+  --fontFamily : 'Ubuntu', sans-serif;
+  --fontLight: 300;
+  --fontRegular: 400;
+  --fontMedium: 500;
+  --fontBold: 700;
+}

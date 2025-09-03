@@ -1,0 +1,130 @@
+.elem17 {
+    $selfElem17: &;
+
+    &__head {
+        @include font-size(30);
+        @include primaryFont(400);
+        color: var(--blue5);
+        text-align: center;
+        padding-bottom: 11px;
+        @include mq(tablet) {
+            text-align: left;
+            @include font-size(36);
+        }
+    }
+
+    &__container {
+		position: relative;
+
+        &_img {
+            @include size(100%);
+            margin: 0px;
+            padding: 0px;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+
+            &:before {
+                content: "";
+                padding-top: 56.25%;
+                width: 100%;
+                display: block;
+            }
+
+            @include mq(tablet) {
+                &:before {
+                    padding-top: 35%;
+                }
+            }
+            @include mq(desktop-min) {
+                &:before {
+                    padding-top: 25%;
+                }
+            }
+        }
+
+        &_content {
+			margin: 15px;
+			position: relative;
+
+			@include mq(tablet) {
+				margin: 15px auto;
+				padding: 0 10px;
+				height: 300px;
+			}
+            .titlehead {
+                @include font-size(32);
+                @include primaryFont(700);
+                color: var(--blue5);
+                line-height: 36px;
+                padding-bottom: 20px;
+                @include mq(tablet) {
+                    @include font-size(21);
+                    line-height: 30px;
+                    padding-bottom: 15px;
+                }
+                @include mq(tablet-wide) {
+                    @include font-size(30);
+                    line-height: 36px;
+                }
+            }
+
+            .detail {
+                @include font-size(20);
+                @include primaryFont(300);
+                color: var(--blue5);
+                line-height: 30px;
+                @include mq(tablet) {
+                    @include font-size(18);
+                    line-height: 28px;
+                    margin-bottom: 25px;
+                }
+                @include mq(tablet-wide) {
+                    @include font-size(20);
+                    line-height: 30px;
+                }
+            }
+
+			@include mq(tablet) {
+				max-width: 720px;
+			}
+			@include mq(tablet-max) {
+				max-width: 960px;
+			}
+			@include mq(desktop-min) {
+                max-width: 1140px;
+            }
+            @include mq(desktop-wide) {
+				max-width: 1320px;
+            }
+			@include mq(desktop-wide-max) {
+				max-width: 1728px;
+			}
+
+			&_wrap {
+				background-color: rgba(255,255,255,0.8);
+				padding: 30px;
+
+				@include mq(tablet) {
+					position: absolute;
+					top: -100%;
+					left: 0;
+                    bottom: 0;
+					@include box-shadow(rgba(0, 0, 0, 0.24) 0px 3px 8px);
+				}
+
+				@include mq(tablet-max) {
+					max-width: 60%;
+				}
+
+                @include mq(desktop-wide) {
+					max-width: 50%;
+				}
+
+				@include mq(desktop-wide-max) {
+					max-width: 50%;
+				}
+			}
+        }
+    }
+}

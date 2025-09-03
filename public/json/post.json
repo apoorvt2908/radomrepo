@@ -1,0 +1,1418 @@
+[
+  {
+    "code": "SUC200",
+    "slug": "home",
+    "data": [
+      {
+        "id": "1",
+        "guid": "0b081938-6619-4c62-891a-7d974915ed3b",
+        "networkId": "37",
+        "title": "Strategic",
+        "content": "An Ecosystem for Digital Transformation",
+        "keywords": "",
+        "postingDate": "2024-05-16",
+        "startDate": null,
+        "endDate": null,
+        "status": "1",
+        "meta": {
+          "title": "",
+          "description": "",
+          "keywords": ""
+        },
+        "media": [
+          {
+            "type": "image",
+            "cdnPath": "/images/strategic1.svg",
+            "caption": null,
+            "posterImage": null,
+            "extension": "svg"
+          },
+          {
+            "type": "image",
+            "cdnPath": "/images/strategic.svg",
+            "caption": null,
+            "posterImage": null,
+            "extension": "svg"
+          }
+        ],
+        "featuredMedia": {
+          "type": "image",
+          "cdnPath": "",
+          "caption": null,
+          "posterImage": null,
+          "extension": "svg"
+        },
+        "taxonomy_id": "1",
+        "url": "",
+        "metaInfo": {
+          "category": "",
+          "external_link": ""
+        }
+      },
+      {
+        "id": "2",
+        "guid": "0b081938-6619-4c62-891a-7d974915ed3b",
+        "networkId": "37",
+        "title": "Leadership",
+        "content": "Enabled with blockchain, AI / ML & Web 3.0-based apps",
+        "keywords": "",
+        "postingDate": "2024-05-16",
+        "startDate": null,
+        "endDate": null,
+        "status": "1",
+        "meta": {
+          "title": "",
+          "description": "",
+          "keywords": ""
+        },
+        "media": [
+          {
+            "type": "image",
+            "cdnPath": "/images/leadership1.svg",
+            "caption": null,
+            "posterImage": null,
+            "extension": "svg"
+          },
+          {
+            "type": "image",
+            "cdnPath": "/images/leadership.svg",
+            "caption": null,
+            "posterImage": null,
+            "extension": "svg"
+          }
+        ],
+        "featuredMedia": {
+          "type": "image",
+          "cdnPath": "",
+          "caption": null,
+          "posterImage": null,
+          "extension": "svg"
+        },
+        "taxonomy_id": "1",
+        "url": "",
+        "metaInfo": {
+          "category": "",
+          "external_link": ""
+        }
+      },
+      {
+        "id": "3",
+        "guid": "0b081938-6619-4c62-891a-7d974915ed3b",
+        "networkId": "37",
+        "title": "Business Life Sciences",
+        "content": "Helping businesses transform digitally and create new value",
+        "keywords": "",
+        "postingDate": "2024-05-16",
+        "startDate": null,
+        "endDate": null,
+        "status": "1",
+        "meta": {
+          "title": "",
+          "description": "",
+          "keywords": ""
+        },
+        "media": [
+          {
+            "type": "image",
+            "cdnPath": "/images/buisness1.svg",
+            "caption": null,
+            "posterImage": null,
+            "extension": "svg"
+          },
+          {
+            "type": "image",
+            "cdnPath": "/images/buisness.svg",
+            "caption": null,
+            "posterImage": null,
+            "extension": "svg"
+          }
+        ],
+        "featuredMedia": {
+          "type": "image",
+          "cdnPath": "",
+          "caption": null,
+          "posterImage": null,
+          "extension": "svg"
+        },
+        "taxonomy_id": "1",
+        "url": "",
+        "metaInfo": {
+          "category": "",
+          "external_link": ""
+        }
+      },
+      {
+        "id": "4",
+        "guid": "0b081938-6619-4c62-891a-7d974915ed3b",
+        "networkId": "37",
+        "title": "UpSkill & UpScale",
+        "content": "Digital identity with cloud",
+        "keywords": "",
+        "postingDate": "2024-05-16",
+        "startDate": null,
+        "endDate": null,
+        "status": "1",
+        "meta": {
+          "title": "",
+          "description": "",
+          "keywords": ""
+        },
+        "media": [
+          {
+            "type": "image",
+            "cdnPath": "/images/upskill1.svg",
+            "caption": null,
+            "posterImage": null,
+            "extension": "svg"
+          },
+          {
+            "type": "image",
+            "cdnPath": "/images/upskill.svg",
+            "caption": null,
+            "posterImage": null,
+            "extension": "svg"
+          }
+        ],
+        "featuredMedia": {
+          "type": "image",
+          "cdnPath": "",
+          "caption": null,
+          "posterImage": null,
+          "extension": "svg"
+        },
+        "taxonomy_id": "1",
+        "url": "",
+        "metaInfo": {
+          "category": "",
+          "external_link": ""
+        }
+      }
+    ]
+  },
+  {
+    "code": "SUC200",
+    "slug": "careers",
+    "data": [
+      {
+        "teams": [
+          {
+            "id": "1",
+            "guid": "0b081938-6619-4c62-891a-7d974915ed3b",
+            "networkId": "37",
+            "title": "WOW Trip",
+            "content": "",
+            "keywords": "",
+            "postingDate": "2024-05-16",
+            "startDate": null,
+            "endDate": null,
+            "status": "1",
+            "meta": {
+              "title": "",
+              "description": "",
+              "keywords": ""
+            },
+            "media": [
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/wow-1.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/wow-2.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/wow-4.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/wow-5.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/wow-6.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/wow-7.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              }
+            ],
+            "featuredMedia": {
+              "type": "image",
+              "cdnPath": "/images/team-photo/wow-1.jpg",
+              "caption": null,
+              "posterImage": null,
+              "extension": "jpg"
+            },
+            "taxonomy_id": "1",
+            "url": "",
+            "metaInfo": {
+              "category": "",
+              "external_link": ""
+            }
+          },
+          {
+            "id": "2",
+            "guid": "1c081938-6619-4c62-891a-7d974915ed3b",
+            "networkId": "37",
+            "title": "15 August",
+            "content": "",
+            "keywords": "",
+            "postingDate": "2024-05-16",
+            "startDate": null,
+            "endDate": null,
+            "status": "1",
+            "meta": {
+              "title": "",
+              "description": "",
+              "keywords": ""
+            },
+            "media": [
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/15-aug-team.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/15-aug-team4.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/15-aug-team5.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/15-aug-team6.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/15-aug-team2.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/15-aug-team3.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              }
+            ],
+            "featuredMedia": {
+              "type": "image",
+              "cdnPath": "/images/team-photo/15-aug-team.jpg",
+              "caption": null,
+              "posterImage": null,
+              "extension": "jpg"
+            },
+            "taxonomy_id": "1",
+            "url": "",
+            "metaInfo": {
+              "category": "",
+              "external_link": ""
+            }
+          },
+          {
+            "id": "3",
+            "guid": "2c081938-6619-4c62-891a-7d974915ed3b",
+            "networkId": "37",
+            "title": "Office Masti",
+            "content": "",
+            "keywords": "",
+            "postingDate": "2024-05-16",
+            "startDate": null,
+            "endDate": null,
+            "status": "1",
+            "meta": {
+              "title": "",
+              "description": "",
+              "keywords": ""
+            },
+            "media": [
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/office-masti1.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/office-masti2.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/office-masti3.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/office-masti4.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/office-masti5.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/office-masti6.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/office-masti7.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/office-masti8.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/office-masti9.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              }
+            ],
+            "featuredMedia": {
+              "type": "image",
+              "cdnPath": "/images/team-photo/office-masti1.jpg",
+              "caption": null,
+              "posterImage": null,
+              "extension": "jpg"
+            },
+            "taxonomy_id": "1",
+            "url": "",
+            "metaInfo": {
+              "category": "",
+              "external_link": ""
+            }
+          },
+          {
+            "id": "4",
+            "guid": "3c081938-6619-4c62-891a-7d974915ed3b",
+            "networkId": "37",
+            "title": "Diwali Celebration",
+            "content": "",
+            "keywords": "",
+            "postingDate": "2024-05-16",
+            "startDate": null,
+            "endDate": null,
+            "status": "1",
+            "meta": {
+              "title": "",
+              "description": "",
+              "keywords": ""
+            },
+            "media": [
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-11-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-10-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-12-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-13-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-2-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-3-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-4-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-5-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-6-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-7-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-8-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/diwali-9-2022.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              }
+            ],
+            "featuredMedia": {
+              "type": "image",
+              "cdnPath": "/images/team-photo/diwali-11-2022.jpg",
+              "caption": null,
+              "posterImage": null,
+              "extension": "jpg"
+            },
+            "taxonomy_id": "1",
+            "url": "",
+            "metaInfo": {
+              "category": "",
+              "external_link": ""
+            }
+          },
+          {
+            "id": "5",
+            "guid": "4c081938-6619-4c62-891a-7d974915ed3b",
+            "networkId": "37",
+            "title": "Madhavgarh Trip",
+            "content": "",
+            "keywords": "",
+            "postingDate": "2024-05-16",
+            "startDate": null,
+            "endDate": null,
+            "status": "1",
+            "meta": {
+              "title": "",
+              "description": "",
+              "keywords": ""
+            },
+            "media": [
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madhavgarh1.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav1.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav3.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav4.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav5.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav6.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav7.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav8.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav9.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav10.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/madahav14.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              }
+            ],
+            "featuredMedia": {
+              "type": "image",
+              "cdnPath": "/images/team-photo/madhavgarh1.jpg",
+              "caption": null,
+              "posterImage": null,
+              "extension": "jpg"
+            },
+            "taxonomy_id": "1",
+            "url": "",
+            "metaInfo": {
+              "category": "",
+              "external_link": ""
+            }
+          },
+          {
+            "id": "6",
+            "guid": "5c081938-6619-4c62-891a-7d974915ed3b",
+            "networkId": "37",
+            "title": "Amritsar Trip",
+            "content": "",
+            "keywords": "",
+            "postingDate": "2024-05-16",
+            "startDate": null,
+            "endDate": null,
+            "status": "1",
+            "meta": {
+              "title": "",
+              "description": "",
+              "keywords": ""
+            },
+            "media": [
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar14.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar15.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar12.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar13.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar1.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar2.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar3.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar4.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar5.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar6.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar7.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar8.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar9.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar10.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/amritsar11.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              }
+            ],
+            "featuredMedia": {
+              "type": "image",
+              "cdnPath": "/images/team-photo/amritsar14.jpg",
+              "caption": null,
+              "posterImage": null,
+              "extension": "jpg"
+            },
+            "taxonomy_id": "1",
+            "url": "",
+            "metaInfo": {
+              "category": "",
+              "external_link": ""
+            }
+          },
+          {
+            "id": "7",
+            "guid": "6c081938-6619-4c62-891a-7d974915ed3b",
+            "networkId": "37",
+            "title": "Christmas",
+            "content": "",
+            "keywords": "",
+            "postingDate": "2024-05-16",
+            "startDate": null,
+            "endDate": null,
+            "status": "1",
+            "meta": {
+              "title": "",
+              "description": "",
+              "keywords": ""
+            },
+            "media": [
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/christmas1.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/christmas2.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/christmas3.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/christmas4.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/christmas5.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/christmas6.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/christmas7.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              }
+            ],
+            "featuredMedia": {
+              "type": "image",
+              "cdnPath": "/images/team-photo/christmas1.jpg",
+              "caption": null,
+              "posterImage": null,
+              "extension": "jpg"
+            },
+            "taxonomy_id": "1",
+            "url": "",
+            "metaInfo": {
+              "category": "",
+              "external_link": ""
+            }
+          },
+          {
+            "id": "8",
+            "guid": "7c081938-6619-4c62-891a-7d974915ed3b",
+            "networkId": "37",
+            "title": "Achivements",
+            "content": "",
+            "keywords": "",
+            "postingDate": "2024-05-16",
+            "startDate": null,
+            "endDate": null,
+            "status": "1",
+            "meta": {
+              "title": "",
+              "description": "",
+              "keywords": ""
+            },
+            "media": [
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/achivement.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/ankit.jpeg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpeg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/azam.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/pawan.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/sahil.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/mayank.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/vivek.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/achla.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/garima.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/abijit.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              },
+              {
+                "type": "image",
+                "cdnPath": "/images/team-photo/pushpa.jpg",
+                "caption": null,
+                "posterImage": null,
+                "extension": "jpg"
+              }
+            ],
+            "featuredMedia": {
+              "type": "image",
+              "cdnPath": "/images/team-photo/achivement.jpg",
+              "caption": null,
+              "posterImage": null,
+              "extension": "jpg"
+            },
+            "taxonomy_id": "1",
+            "url": "",
+            "metaInfo": {
+              "category": "",
+              "external_link": ""
+            }
+          }
+        ]
+      }
+
+    ]
+  },
+    {
+  "code": "SUC200",
+  "slug": "carers",
+  "data": [
+    {
+      "id": "1",
+      "guid": "0b081938-6619-4c62-891a-7d974915ed3b",
+      "networkId": "37",
+      "jobtitle": "Database Administrator",
+      "experience": "2+ Years",
+      "skills": "MongoDB, SQL queries, tables, events, Database migration",
+      "department": "IT",
+      "location": "Delhi NCR (Work from Office)",
+      "jobtype": "Permanent",
+      "workfrom": "Office",
+      "responsibities": [
+        "Database Architecture & Normalization",
+        "DB performance monitoring",
+        "Database migration",
+        "Backup & Recovery",
+        "Ensure availability, reliability, and security of the database in production and staging environments",
+        "Ensure data integrity and the detection of data errors",
+        "Perform capacity planning for database growth",
+        "Train and mentor application developers and junior personnel on best practices",
+        "Develop diagrams for data structure entity relationships and data flows",
+        "Prepare reports for databases and customize for specific needs",
+        "Collaborate with other database developers to assess system performance and make modifications as required"
+      ],
+      "desiredprofile": [
+        "At least 2 years of experience in in Mongo database management with designing and developing SQL queries, tables, events, stored",
+        "Should have strong skills in design & maintain the existing/new databases and ensure their stability, reliability, security and performance",
+        "Understanding of MongoDB underlying storage engines, such as InnoDB and MyISAM experience with replication configuration in MongoDB",
+        "Proficient in writing and optimizing Mongo Statements",
+        "Should provide database and code optimization recommendations",
+        "Should have good logical skills to understand database design, implementations, relations, queries",
+        "Experience in debugging time critical DB problems like deadlock analysis and transaction locking",
+        "Experience in Engineering solutions for data backup and encryption",
+        "Good communication skills and ability to work with remote teams",
+        "Exposure to Mongo DB native plugin development is an added advantage"
+      ],
+      "education": "Any Technical Graduate/Post Graduate (B.Tech/B.E/MCA)",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "guid": "1c192049-772a-5d73-982b-8ea58026fe4c",
+      "networkId": "37",
+      "jobtitle": "Business Developer (Cloud)",
+      "experience": "4+ Years",
+      "skills": "Business Development, B2C Sales, Enterprise Sales, Technical Sales, Client Retention, Client Relationship",
+      "department": "IT",
+      "location": "Delhi NCR (Work from Office)",
+      "jobtype": "Permanent",
+      "workfrom": "Office",
+      "responsibities": [
+        "Prospecting, Introducing, generating interest to on-boarding of clients through extensive market research, compelling proposals and informing solution offering",
+        "Building a pipeline of high quality with recurring revenue",
+        "Developing long-term strategic relationships with key accounts and exceeding quarterly revenue and targets",
+        "Accelerating sales by engaging Founders, CxO(s) through well-developed sales engagement tools",
+        "Driving the development of account plans for larger clients",
+        "Hunting, leading, inspiring, and driving strategic initiatives for the targeted account",
+        "Qualifying opportunities, managing the RFP process, and closing business",
+        "Creating, maintaining, and executing a business plan for the assigned accounts with goals and objectives, based on opportunity and customer needs",
+        "Implementing marketing strategies by analyzing trends, market mapping, and competitor analysis effective decisions",
+        "Establishing key propositions in Client's offerings to the Decision makers with sales head",
+        "Gathering information on account through various tools and their investment strategy and planning for the upcoming years for participating in RFP",
+        "Leading pursuit marketing programs for large deals to define their value proposition and strengthen it with fitting marketing tactics to increase the probability",
+        "Demonstrating Digital Transformation solutions",
+        "Drawing overall cloud approach and strategy based on customer expectations and business KPIs",
+        "Briefing teams on the details for advancing cloud skill development and facilitating screening of candidates to enhance partner relationships",
+        "Taking bi-weekly/monthly status meetings to communicate account revenue growth",
+        "Executing corporate initiatives and industry events resulting in new business attraction",
+        "Capitalizing market opportunities by partnering with cross-functional teams to accelerate account growth",
+        "Leading product growth & expansion of cloud connectivity portfolio",
+        "Working closely with internal business, operations and partnerships teams in launching and maintaining features that impact product growth",
+        "Driving market and usability research to understand opportunities and developing roadmap & strategy alongwith customer engagements for understanding the use-case and working with pre-sales for the best fit solution",
+        "Working closely with engineers, designers and other PMs on developing new features/specs and driving execution",
+        "Designing and implementing device accreditation programs to serve customers with improved product delivery processes, impact analysis, risk management and communication across the organization and fixing revenue leakage",
+        "Responsibility will also include operational improvements, RoI analysis, GTM, product value proposition, customer analytics",
+        "Liaisoning with Partners / Vendors for product roadmap and solutions",
+        "Analyzing feature/experiment results and communicating learnings to the team and the company",
+        "Creating Cost/Benefit modeling and business cases for large scale proposals",
+        "Go to Market (GTM) activities and creating proposal accelerators for driving efficiency",
+        "Running end-to-end sales cycle to meet revenue target",
+        "Coordinating with the Delivery team for smooth project delivery",
+        "Building and managing relationships to generate new business and closure",
+        "Ensuring the deliverables are of the highest quality with adherence to established technical standards"
+      ],
+      "desiredprofile": [
+        "In-depth understanding of Private/Hybrid Cloud solutions",
+        "Experience in maintaining databases in CRM through various search engines",
+        "Should have worked with Sales leadership to design, create, and present business solutions in the domestic/international market",
+        "Related Cloud Certifications will add additional advantage",
+        "Highly adaptable professional",
+        "Ability to quickly learn new technologies and systems, coupled with a genuine passion for business development",
+        "Should be able to diagnose and solve technical problems",
+        "Proficient in managing administration of B2C business",
+        "Committed to excellence, self-motivation, quick learner, team player, problem solver, analytical and excellent communication skills"
+      ],
+      "education": "Any Technical Graduate/Post Graduate (B.Tech/B.E/MCA), MBA in Marketing is preferred",
+      "status": "1"
+    },
+    {
+      "id": "3",
+      "guid": "2d2a315a-883b-6e84-a93c-9fb69137gf5d",
+      "networkId": "37",
+      "jobtitle": "Business Development Manager",
+      "experience": "4+ Years",
+      "skills": "International Business Development, B2B Sales, Enterprise Sales, Technical Sales",
+      "department": "IT",
+      "location": "Delhi NCR (Work from Office)",
+      "jobtype": "Permanent",
+      "workfrom": "Office",
+      "responsibities": [
+        "B2B lead generation and sales prospecting across the middle east nations",
+        "Gathering Sales Intelligence and handling objections",
+        "Presenting company's IT service capabilities viz. Architecture, Solution Design, Project Development, Project Management, Testing Process, Service Support (L1 & L2) and Managed Services",
+        "Prospecting, Introducing, generating interest to on-boarding of clients through extensive market research, compelling proposals and informing solution offering",
+        "Creation of sales presentations (PPTs)",
+        "Generation of Sales Reports",
+        "To work as the primary point of contact for the international clients",
+        "Developing strong, positive cross-organizational relationships with the clients",
+        "Building a pipeline of high quality with recurring revenue",
+        "Identifying new sales opportunities",
+        "Developing long-term strategic relationships with key accounts and exceeding quarterly revenue and targets",
+        "Accelerating sales by engaging Founders, CxO(s) through well-developed sales engagement tools",
+        "Driving the development of account plans for larger clients",
+        "Hunting, leading, inspiring, and driving strategic initiatives for the targeted account",
+        "Qualifying opportunities, managing the RFP process, and closing business",
+        "Creating, maintaining, and executing a business plan for the assigned accounts with goals and objectives, based on opportunity and customer needs",
+        "Implementing marketing strategies by analyzing trends, market mapping, and competitor analysis effective decisions",
+        "Establishing key propositions in Client's offerings to the Decision makers with sales head",
+        "Gathering information on account through various tools and their investment strategy and planning for the upcoming years for participating in RFP",
+        "Leading pursuit marketing programs for large deals to define their value proposition and strengthen it with fitting marketing tactics to increase the probability",
+        "Demonstrating Digital Transformation solutions",
+        "Drawing overall business development approach and strategy based on customer expectations and business KPIs",
+        "Briefing teams on the details for advancing skill development and facilitating screening of candidates to enhance partner relationships",
+        "Taking bi-weekly/monthly status meetings to communicate account revenue growth",
+        "Executing corporate initiatives and industry events resulting in new business attraction",
+        "Capitalizing market opportunities by partnering with cross-functional teams to accelerate account growth",
+        "Leading product growth & expansion of connectivity portfolio",
+        "Working closely with internal business, operations and partnerships teams in launching and maintaining features that impact product growth",
+        "Driving market and usability research to understand opportunities and developing roadmap & strategy alongwith customer engagements for understanding the use-case and working with pre-sales for the best fit solution",
+        "Working closely with engineers, designers and other PMs on developing new features/specs and driving execution",
+        "Designing and implementing device accreditation programs to serve customers with improved product delivery processes, impact analysis, risk management and communication across the organization and fixing revenue leakage",
+        "Responsibility will also include operational improvements, RoI analysis, GTM, product value proposition, customer analytics",
+        "Liaisoning with Partners / Vendors for product roadmap and solutions",
+        "Analyzing feature/experiment results and communicating learnings to the team and the company",
+        "Creating Cost/Benefit modeling and business cases for large scale proposals",
+        "Go to Market (GTM) activities and creating proposal accelerators for driving efficiency",
+        "Running end-to-end sales cycle to meet revenue target",
+        "Coordinating with the Delivery team for smooth project delivery",
+        "Building and managing relationships to generate new business and closure",
+        "Ensuring the deliverables are of the highest quality with adherence to established technical standards"
+      ],
+      "desiredprofile": [
+        "In-depth understanding of Private/Hybrid IT solutions",
+        "Experience in maintaining databases in CRM through various search engines",
+        "Should have worked with Sales leadership to design, create, and present business solutions in the domestic/international market",
+        "Related IT Certifications will add additional advantage",
+        "Highly adaptable professional",
+        "Ability to quickly learn new technologies and systems, coupled with a genuine passion for business development",
+        "Should be able to diagnose and solve technical problems",
+        "Proficient in managing administration of B2B business",
+        "Committed to excellence, self-motivation, quick learner, team player, problem solver, analytical and excellent communication skills",
+        "Detail oriented",
+        "High level personal network",
+        "Exposure to Sales CRM & ERP",
+        "Networking enthusiast",
+        "Team management",
+        "Price Negotiation Skills",
+        "Excellent communication in English (Verbal, Written)"
+      ],
+      "education": "Any Technical Graduate/Post Graduate (B.Tech/B.E/MCA), MBA in Marketing is preferred",
+      "status": "1"
+    },
+    {
+      "id": "4",
+      "guid": "3e3b426b-994c-7f95-ba4d-afc7a248hg6e",
+      "networkId": "37",
+      "jobtitle": "Senior Quality Analyst",
+      "experience": "5+ Years",
+      "skills": "Web Application Testing, Automation Testing, Web Security Audit/tool, Agile Methodologies, JIRA",
+      "department": "Testing",
+      "location": "Delhi NCR",
+      "jobtype": "Permanent",
+      "workfrom": "Office",
+      "responsibities": [
+        "Lead QA team on overall testing activities approaches and strategies",
+        "Establish, maintain, and oversee all aspects of QA processes and methodologies to ensure effectiveness and alignment to industry best practices",
+        "Manage proper execution by the QA team on different types of testing (functional, integration, end-to-end, performance, etc)",
+        "Facilitate and lead regular QA team meetings or triage calls",
+        "Coordinate the maintenance of test environments",
+        "Work with project manager and development team to report and escalate relevant testing issues and challenges that arise during testing activities",
+        "Collaborate with QA Engineers to develop effective strategies and test plans",
+        "Evaluate product code according to Specifications",
+        "Create logs to document testing phases and defects",
+        "Report bugs to development teams",
+        "Help troubleshoot issues",
+        "Conduct post-release/post-implementation testing",
+        "Work with cross-functional teams to ensure quality throughout the software development",
+        "Excellent communications skills verbally and written (English)"
+      ],
+      "desiredprofile": [
+        "At Least 5 year of experience web application, testing and documentation",
+        "Should have worked on web application testing, design and documentation of the system",
+        "Experience in web security audit/tool",
+        "Solid experience in Agile testing methodologies",
+        "Excellent communication skills",
+        "Analytical mind and problem-solving aptitude",
+        "Strong organizational skills",
+        "Candidates must have experience in JIRA",
+        "Experience and good understanding of automation testing and frameworks",
+        "Must have Experience in client coordination / Team Handling"
+      ],
+      "education": "Any Technical Graduate/Post Graduate (B.Tech/B.E./MCA)",
+      "status": "1"
+    },
+    {
+      "id": "5",
+      "guid": "4f4c537c-aa5d-80a6-cb5e-bgd8b359ih7f",
+      "networkId": "37",
+      "jobtitle": "React Js Developer",
+      "experience": "3+ Years",
+      "skills": "Javascript, React JS, Redux, MySQL, Oracle, MongoDB, HTML5, CSS3, SCSS",
+      "department": "Development",
+      "location": "Delhi NCR",
+      "jobtype": "Permanent",
+      "workfrom": "Office",
+      "responsibities": [
+        "Developing front end website architecture",
+        "Designing user interactions on web pages",
+        "Creating servers and databases for functionality",
+        "Ensuring cross-platform optimization for mobile phones",
+        "Ensuring responsiveness of applications",
+        "Working alongside graphic designers for web design features",
+        "Seeing through a project from conception to finished product",
+        "Designing and developing APIs",
+        "Meeting both technical and consumer needs",
+        "Staying abreast of developments in web applications and programming languages",
+        "Must have worked with enterprise business applications"
+      ],
+      "desiredprofile": [
+        "At Least 5 year of experience web application, testing and documentation",
+        "Should have worked on web application testing, design and documentation of the system",
+        "Experience in web security audit/tool",
+        "Solid experience in Agile testing methodologies",
+        "Excellent communication skills",
+        "Analytical mind and problem-solving aptitude",
+        "Strong organizational skills",
+        "Candidates must have experience in JIRA",
+        "Experience and good understanding of automation testing and frameworks",
+        "Must have Experience in client coordination / Team Handling"
+      ],
+      "education": "Any Technical Graduate/Post Graduate (B.Tech/B.E./MCA)",
+      "status": "1"
+    },
+    {
+      "id": "6",
+      "guid": "5g5d648d-bb6e-91b7-dc6f-che9c46ajk8g",
+      "networkId": "37",
+      "jobtitle": "Senior Python Developer",
+      "experience": "5+ Years",
+      "skills": "Flask & ORMs as Django, SQL Alchemy, SQL Queries, Debugging Techniques, APIs, Automation Testing, Github, Gitlab, Bit Bucket",
+      "department": "IT",
+      "location": "Delhi NCR",
+      "jobtype": "Permanent",
+      "workfrom": "Office",
+      "responsibities": [
+        "Writing effective, Scalable code",
+        "Developing back-end components to improve responsiveness and overall performance",
+        "Integrating user-facing elements into applications",
+        "Testing and debugging programs",
+        "Improving functionality of existing systems",
+        "Assessing and prioritizing feature requests",
+        "Coordinating with internal teams to understand user requirements and provide technical solutions"
+      ],
+      "desiredprofile": [
+        "Any Technical Graduate/Postgraduate",
+        "Minimum 5+ Years with Team Handling",
+        "Working knowledge of constructs like Iterators, Generators, Decorators, Descriptors, IO Loop",
+        "Must have Experience in Flask to develop REST compliant APIs",
+        "Experience with packaging and deployment tools like Wheels and Fabric is a big plus",
+        "Can apply design principles and design patterns to your code in a practical way",
+        "Knowledge of working with ORMs like SQL Alchemy or Django ORM",
+        "Working experience in writing automated tests using unit test and nose test",
+        "Good working experience in database modeling and can write advanced SQL Queries",
+        "Deep knowledge of troubleshooting and debugging techniques like divide & conquer, time profiling and Memory Profiling",
+        "Having a Public repository in Git hub/Git lab/bit bucket will be preferred"
+      ],
+      "education": "Any Technical Graduate/Post Graduate (B.Tech/B.E./MCA)",
+      "status": "1"
+    },
+    {
+      "id": "7",
+      "guid": "6h6e759e-cc7f-a2c8-ed7g-difad57bkl9h",
+      "networkId": "37",
+      "jobtitle": "PHP Developer",
+      "experience": "4+ Years",
+      "skills": "PHP Framework viz. Yii / Laravel/ Cake PHP/ Core PHP / Codignitor, MySQL, OOPS Programming",
+      "department": "IT",
+      "location": "Delhi NCR",
+      "jobtype": "Permanent",
+      "workfrom": "Office",
+      "responsibities": [
+        "As a PHP Developer, you will be responsible for developing and coding all server-side logic",
+        "You will also be required to maintain the central database and respond to requests from Front - end developers",
+        "Conducting analysis of website and application requirements",
+        "Writing back-end code and building efficient PHP modules",
+        "Developing back-end portals with an optimized database",
+        "Troubleshooting application and code issues",
+        "Integrating data storage solutions",
+        "Responding to integration requests from front-end developers",
+        "Finalizing back-end features and testing web applications",
+        "Updating and altering application features to enhance performance"
+      ],
+      "desiredprofile": [
+        "Must have experience in developing rich UI base web applications using HTML web standards , AJAX, Java Script libraries and frameworks such as JQuery & Prototype etc",
+        "Experience in building high - scalable custom websites",
+        "Should have strong Data base Knowledge",
+        "Should have worked in Agile Scrum framework",
+        "Should know about writing a secure code",
+        "Excellent Communicator m self - motivator, team player ability to solve complex problems, design requirements Documentation, etc"
+      ],
+      "education": "Any Technical Graduate/Post Graduate (B.Tech/B.E & MCA)",
+      "status": "1"
+    },
+    {
+      "id": "8",
+      "guid": "7i7f86af-dd8g-b3d9-fe8h-ejgbe68clm0i",
+      "networkId": "37",
+      "jobtitle": "Senior Database Administrator",
+      "experience": "5+ Years",
+      "skills": "Architecture Design, Data Solution Debugging, Code Version Tool like Git/SVN, RDBMS (PostgreSQL, MySQL)",
+      "department": "IT",
+      "location": "Delhi NCR",
+      "jobtype": "Permanent",
+      "workfrom": "Office",
+      "responsibities": [
+        "Responsible for all aspects of development, designing, and delivery of database solutions",
+        "Administer and maintain database security, integrity, and optimization",
+        "Develop and run periodic and requested reports",
+        "Develop new databases and applications",
+        "Identify and resolve performance and capacity issues",
+        "Establish and maintain backup and recovery processes",
+        "Maintain associated non-referential data"
+      ],
+      "desiredprofile": [
+        "5+ years of experience as DB Manager",
+        "Experience in architecture designing, development of standards, data solution debugging, developing coordination with developing a team, lending support to various technology and business teams, supporting and meeting data and database systems and meeting business needs and specifications",
+        "Should have an in-depth knowledge of data manipulation techniques and computer programming, the ability to integrate and implement new software packages and new products into the system",
+        "Should have good organizational skills and communication skills",
+        "Proficient understanding of code versioning tools, such as {{Git / Mercurial / SVN}}",
+        "Should be proficient in Database with specific understanding of RDBMS like PostgreSQL, MySQL (or similar)"
+      ],
+      "education": "Any Graduate/Post Graduate",
+      "status": "1"
+    },
+    {
+      "id": "9",
+      "guid": "8j8g97bg-ee9h-c4e0-gf9i-fkhcf79dmn1j",
+      "networkId": "37",
+      "jobtitle": "Senior Node Js Developer",
+      "experience": "5-10 Years",
+      "skills": "Node Js, Ajax, JQuery, Javascript, API, Gateway Integration, MySQL, PostgreSQL, Functional Testing, MVC",
+      "department": "IT",
+      "location": "Delhi NCR",
+      "jobtype": "Permanent",
+      "workfrom": "Office",
+      "responsibities": [
+        "Responsible for leading the team of developers of client and overall operationalization and maintenance of portals",
+        "Responsible for overall designing and developing software systems and applications",
+        "Responsible for the overall operationalization and maintenance of Client portals",
+        "Responsible for optimizing the application architecture while following Agile methodologies",
+        "Work with client and other stakeholders closely to consult and develop holistic technical solutions in data Engineering & integration, application development and quality processes",
+        "Should be able to maintain architecture design and enable modifications such that the cloud architecture of client portals remains technology agnostic",
+        "Ensure that the applications are easily scalable and portable across available public-private cloud infrastructure and should leverage government cloud infrastructure from C-DAC and NIC to the extent possible",
+        "Prepare System documents such as SRS, FRS etc",
+        "Understand and optimize the application architecture while following Agile methodologies",
+        "Understand user stories of Client from product owners and drive the design and development accordingly",
+        "Should lead the entire cycle of software development i.e. from ideation to deployment and everything in between",
+        "Manage data and compute resources for language technology start-ups",
+        "Submit the weekly/monthly Report to the project head for all the team members working with him"
+      ],
+      "desiredprofile": [
+        "5-10 Year development of software and Management of team",
+        "Working Experience of web technologies including HTML, CSS, JavaScript, AJAX, JQuery etc",
+        "Working Experience of relational databases, version control tools and of developing web services using REST and SOAP architecture",
+        "Profound knowledge of documentation like requirement specifications, manuals and other project related documents",
+        "Experience in common third-party APIs (google, Facebook, SMS gateway integration, payment gateway integration etc)",
+        "Object Oriented Programming with the understanding of an MVC framework architecture and experience in development using MVC framework",
+        "Experience in handling web security audits and its tools",
+        "Passion for best design and coding practices and a desire to develop new ideas",
+        "Experience for working on software tools LAMP, versioning and bug reporting tools, web and database security",
+        "Experience in cross platform development, worked on products or technologies that have scalable architectures",
+        "Understanding and experience in complete SDLC from functional & technical specifications, documentation, QA processes, source control, maintenance and deployments",
+        "Understanding of W3C Web Standards/Semantics and Accessibility Guidelines",
+        "Proficient understanding of code versioning tools, such as {{Git / Mercurial / SVN}}",
+        "Should be proficient in Database with specific understanding of RDBMS like PostgreSQL, MySQL (or similar)",
+        "Should be aware of agile delivery and should easily adapt to the process",
+        "Should be familiar with Performance testing (JMeter, Gatling), Functional testing (Taiko, Jest, gauge and PACT), Unit testing and Integration testing approaches",
+        "Hands on experience on project management tools & technologies including open sources",
+        "Experience of working for a government set up/ project is desirable"
+      ],
+      "education": "Any Technical Graduate/Post Graduate (B.Tech/B.E./MCA)",
+      "status": "1"
+    }
+  ]
+}
+]
+
+
+
+

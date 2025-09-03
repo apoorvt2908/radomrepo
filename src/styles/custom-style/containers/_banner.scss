@@ -1,0 +1,68 @@
+
+/* Begin inner banner section */
+
+.banner_container {
+    @include background-size(cover);
+    background-position: left;
+
+    @include mq(desktop-min) {
+        background-position: right;
+    }
+
+    &__box {
+        min-height: 400px;
+        @include flex-column;
+        @include justify-content(flex-end);
+        padding: 40px 0;
+    }
+
+    &__content {
+        min-height: 200px;
+        max-width: calc(1296px / 12 * 9);
+        &_title {
+            @include font-size(28);
+            @include primaryFont(700);
+            color: var(--white);
+            margin-bottom: 25px;
+
+            @include mq(tablet) {
+                @include font-size(46);
+            }
+        }
+        &_desc {
+            max-width: 600px;
+            @include font-size(18);
+            @include primaryFont(300);
+            color: var(--white);
+
+            @include mq(tablet) {
+                @include font-size(20);
+            }
+        }
+    }
+
+    &__breadcrumb {
+        .breadcrumb {
+            margin-bottom: 0;
+
+            .breadcrumb-item {
+                color: var(--grey2);
+                &:before {
+                    color: var(--grey3);
+                }
+                a {
+                    color: var(--grey2);
+                    &:hover {
+                        color:var(--orange);
+                    }
+                }
+                &.active {
+                    color: var(--orange); 
+                }
+                
+            }
+        }
+    } 
+}
+
+/* End inner banner section */

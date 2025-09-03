@@ -1,0 +1,107 @@
+.elem12 {
+    $selfElem12: &; 
+    
+    &__card {
+        
+        &-tile {
+            @include box-shadow(-2px 8px 20px rgba(0, 0, 0, 0.15));
+            border: 1px solid var(--grey2);
+            background: var(--white);
+            margin-bottom: 60px;
+            height: calc(100% - 60px);
+
+            &.small--card {
+                #{$selfElem12} {
+                    &__card {
+                        &-content {
+                            padding: 60px 25px 48px 25px;
+                        }
+                    }
+                }
+            }
+        } 
+        .generic-height{
+            height: 200px;
+            background-position: center!important;
+        }
+
+        &-media {
+            background-repeat: no-repeat;
+            height: 320px;
+            background-position: bottom;
+            position: relative;
+            @include background-size(cover);
+
+            .float--elem {
+                position: absolute;
+                &.topLeft {
+                    top: 20px;
+                    left: 20px;
+                }
+                &.topRight {
+                    top: 20px;
+                    right: 20px;
+                }
+                &.bottomLeft {
+                    bottom: 20px;
+                    left: 20px;
+                }
+                &.bottomRight {
+                    bottom: 20px;
+                    right: 20px;
+                }
+            }
+            .company--logo {
+                position: absolute;
+                bottom: 0;
+                left: 20px;
+                padding: 20px;
+                background: var(--white);
+            }
+            .tag {
+                @include border-radius(50px);
+                background: rgba(80, 87, 114, 0.5);
+                @include font-size(13);
+                @include primaryFont(700);
+                padding: 10px 30px;  
+                color:var(--white); 
+            }
+        }
+        &-content {
+            padding: 60px 48px 48px 48px;
+
+            .title {
+                @include font-size(24);
+                @include primaryFont(700); 
+                color:var(--blue5);
+                margin-bottom: 20px;
+                line-height: 1.3;
+            }
+            .desc {
+                @include font-size(16);
+                @include primaryFont(300); 
+                color:var(--blue5);
+                margin-bottom: 30px;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+                min-height: 72px;
+            }
+            .button {
+                display: block;
+            }
+        }
+    }
+    &--v2{
+        #{$selfElem12} {
+       &__card {
+        &-content {
+            padding:30px;
+        }
+       }
+    }
+        
+
+    }
+}

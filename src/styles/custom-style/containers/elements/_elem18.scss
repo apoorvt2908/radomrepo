@@ -1,0 +1,92 @@
+.elem18 {
+    $selfElem18: &;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    &_img{
+        width:100%; 
+        min-height: 750px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-size: cover;
+        }
+        &_content{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            color: var(--white);
+            @include flexbox();
+            @include align-items(center);
+            &-head{
+                text-align: center;
+                .title{
+                    @include font-size(30);
+                    @include primaryFont(700);   
+                    color: var(--white);
+                    margin-bottom: 20px; 
+                    line-height:35px;
+                    @include transition (opacity 0.6s ease-in, top 0.8s ease);
+                    @include mq(tablet-max) {
+                        @include font-size(40);
+                        line-height:44px;
+                    }
+                    @include mq(tablet-wide) {
+                        @include font-size(60);
+                        line-height:64px;
+                    }
+                }
+                .desc{
+                    @include font-size(16);
+                    @include primaryFont(300);   
+                    color: var(--white);
+                    line-height:24px;
+                    margin-bottom: 20px;
+                    @include mq(tablet-max) {
+                        @include font-size(20);
+                        line-height:26px;
+                    }
+                    @include mq(tablet-wide) {
+                        @include font-size(22);
+                        line-height:30px;
+                    }
+                }
+            }
+            &-logo{
+                @include flexbox(); 
+                @include justify-content(space-between); 
+                flex-direction: column; 
+                @include align-items(center); 
+                @include mq(tablet-max) {
+                    flex-direction: row; 
+                }
+                &--item{
+                    width: 340px;
+                    @include flexbox;
+            @include align-items(center);
+            @include justify-content(center);
+            background: var(--white);
+            @include border-radius(12px);
+            margin-bottom: 15px;
+            padding-left:12px;
+            padding-right: 12px;
+            @include mq(tablet-max) {
+                height: 110px;
+            }
+            .u-img{
+                height:60px;
+                width: auto;
+                @include mq(tablet-max) {
+                    height: 90px;
+                    width: auto;
+                }
+            } 
+                }
+            }
+        }
+    }

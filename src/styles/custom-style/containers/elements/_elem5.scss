@@ -1,0 +1,28 @@
+.elem5{
+    $selfElem5: &;
+    position: relative;
+    overflow: hidden;
+    &__overlay {
+        position: absolute;
+        @include size(100%);
+        left: 50%;
+        top: 50%;
+        @include translate(-50%,-50%);
+        z-index: 120;
+
+        .clipped {
+            width: 60%;
+            left: 50%;
+            top: 50%;
+            @include translate(-50%,-50%);
+            position: absolute;
+            
+        }
+    }
+
+    &__container {
+        min-height: 900px;
+        position: relative;
+        background-size: cover;
+    }
+}

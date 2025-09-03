@@ -1,0 +1,64 @@
+body,
+html {
+  @include size(100%);
+  overscroll-behavior-y: none;
+  scrollbar-width: thin;
+  overscroll-behavior-y: none;
+  background-color: var(--white);
+  @include primaryFont(400);
+  
+  * {
+    @extend .scrollBar-smallWidth;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  @include transition(all 0.5s ease);
+
+  &:hover {
+    color: var(--orange);
+  }
+}
+ul li,
+ol li,
+ul,
+ol {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.custom_container {
+  @include mq(desktop-wide-max) {
+    max-width: 1728px;
+  }
+}
+
+.scrollBar-smallWidth {
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+      width: 8px !important;
+      height: 8px !important;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+      background: rgba(0,0,0,0.5);
+      @include border-radius(10px);
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+      background: rgba(255,255,255,0.5);
+      @include border-radius(10px);
+  }
+
+  &::-webkit-scrollbar-thumb:window-inactive {
+      background: rgba(255,255,255,0.5);
+  }
+}
